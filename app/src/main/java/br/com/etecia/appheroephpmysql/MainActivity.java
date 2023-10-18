@@ -4,6 +4,7 @@ import static android.view.View.GONE;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.DialogInterface;
 import android.os.AsyncTask;
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
 
         listView = findViewById(R.id.listViewHeroes);
+
 
         heroList = new ArrayList<>();
         buttonAddUpdate.setOnClickListener(new View.OnClickListener() {

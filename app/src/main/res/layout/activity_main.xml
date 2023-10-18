@@ -60,7 +60,11 @@
         android:id="@+id/listViewHeroes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/linearLayout" />
+        android:layout_below="@id/linearLayout"
+        android:divider="@color/black"
+        android:dividerHeight="10dp"
+
+        />
 
     <ProgressBar
         android:id="@+id/progressBar"
