@@ -93,11 +93,14 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        if (TextUtils.isEmpty(realname)) {
+       if (TextUtils.isEmpty(realname)) {
             editTextRealname.setError("Por favor entre com o nome real");
             editTextRealname.requestFocus();
             return;
         }
+
+
+
 
         //Conexão entre o Android e o PHP através do Hash.
         HashMap<String, String> params = new HashMap<>();
